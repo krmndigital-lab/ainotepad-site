@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — AI Notepad</title>
+<link rel="icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="../assets/icon.png" alt="AI Notepad icon">
+  <div><h1>Privacy policy</h1><p>AI Notepad: Handwriting &amp; PDF (com.krmndigital.ainotepad) · KRMN Digital · effective 17 November 2026</p></div>
+</header>
+
+<p><strong>Summary: AI Notepad has no account system and no server of ours. Your notes, handwriting, pictures, recordings and everything the AI features produce are made on your device and stay there, unless you connect your own cloud storage or share something yourself.</strong> The free version shows ads through Google AdMob, which processes some data as described below; AI Notepad Pro removes the ads.</p>
+
+<h2>What the app stores on your device</h2>
+<ul>
+<li>Your notes: typed text, handwriting, pictures, imported PDFs, voice recordings, attachments, folders, tags and reminders.</li>
+<li>Text recognized in your handwriting and pictures (for search), summaries and other AI results you keep.</li>
+<li>Your settings, whether Pro is active, and — if you connect a cloud storage — the sign-in token for it, encrypted with a key kept in the Android Keystore.</li>
+</ul>
+<p>These files live in the app's private storage, are excluded from Android's automatic backups, and are deleted when you uninstall the app. Locked notes are encrypted on the device with your lock secret. KRMN Digital cannot see, read or recover any of it.</p>
+
+<h2>On-device AI</h2>
+<p>Handwriting recognition, text recognition in pictures, summaries, title and tag suggestions, tidy formatting, action items, math and translation run on your device. Your notes are not sent to KRMN Digital or to any AI service. Handwriting recognition, picture text recognition and translation use Google ML Kit, which runs on the device; the language models are downloaded from Google the first time a language is used, and ML Kit sends Google diagnostic data about its own performance (device and app information, model download events, the configured languages), not your content.</p>
+
+<h2>Your own cloud storage (optional)</h2>
+<p>If you turn on backup or sync, the app connects <em>directly from your device</em> to the storage you choose: Google Drive, Dropbox, Yandex Disk, Microsoft OneDrive, a WebDAV server (for example Nextcloud) or a folder. Your notes are uploaded only to that storage, into a folder made for this app, and nowhere else. With end-to-end encryption turned on, the files are encrypted on your device with your passphrase before they leave it. The storage provider's own privacy policy applies to what is stored there. You can disconnect at any time; the app then forgets the sign-in token.</p>
+<p><strong>Google Drive:</strong> the app asks only for the <code>drive.file</code> permission, which lets it see and manage the files it created itself and nothing else in your Drive. AI Notepad's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements: the data is used only to back up and sync your notes at your request, is never transferred to anyone else, is never used for advertising, and is never read by a human at KRMN Digital (it never reaches us at all).</p>
+
+<h2>Network communication</h2>
+<table>
+<tr><th>Purpose</th><th>Who receives it</th><th>What is sent</th></tr>
+<tr><td>Backup and sync (optional)</td><td>Only the storage you connected</td><td>Your notes and attachments, encrypted with your passphrase if you set one.</td></tr>
+<tr><td>Sharing and "Save to…"</td><td>Only the app or service you pick in the Android share sheet or file picker</td><td>The file or text you chose to share or save.</td></tr>
+<tr><td>Language models</td><td>Google (ML Kit)</td><td>A download request for the handwriting or translation model of a language; ML Kit diagnostics as described above. Not your notes.</td></tr>
+<tr><td>Purchases</td><td>Google Play</td><td>Google Play Billing handles the Pro purchase; the app only learns whether it is active.</td></tr>
+<tr><td>Ads (free version only)</td><td>Google AdMob (Google LLC) and its advertising partners</td><td>The advertising ID, approximate location derived from the IP address, device and app information and ad interaction data, as described in Google's policies. In the EEA, the UK and Switzerland you are asked for consent first (Google User Messaging Platform). Ads never appear inside a note and never receive your notes. Pro removes ads and this data flow.</td></tr>
+<tr><td>Ratings</td><td>Google Play</td><td>If you choose to rate the app, Google's in-app review dialog opens; the app receives nothing.</td></tr>
+</table>
+<p>AI Notepad does not use analytics or crash-reporting SDKs.</p>
+
+<h2>Permissions</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>RECORD_AUDIO</td><td>Voice notes, only while you record. Recordings stay in the note.</td></tr>
+<tr><td>POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED</td><td>Reminders you set on notes (they are set again after the device restarts).</td></tr>
+<tr><td>INTERNET, ACCESS_NETWORK_STATE</td><td>Your own cloud storage, language model downloads, Google Play purchases, ads in the free version.</td></tr>
+<tr><td>VIBRATE</td><td>Haptic feedback.</td></tr>
+<tr><td>USE_BIOMETRIC</td><td>Unlocking locked notes with your fingerprint or screen lock. The check happens on the device; no biometric data reaches the app.</td></tr>
+<tr><td>com.android.vending.BILLING</td><td>AI Notepad Pro purchase through Google Play.</td></tr>
+<tr><td>AD_ID</td><td>Google AdMob in the free version.</td></tr>
+</table>
+<p>Pictures, PDFs and other files are chosen through Android's own pickers, and the camera is used through your camera app: AI Notepad has no access to your photo library, files or camera beyond what you pick.</p>
+
+<h2>Children</h2>
+<p>AI Notepad is a general-purpose productivity tool and does not knowingly collect any information from anyone, including children.</p>
+
+<h2>Your choices</h2>
+<ul>
+<li>Delete a note in the app (it stays in the trash for 30 days, then it is gone); uninstalling deletes everything on the device.</li>
+<li>Disconnect a cloud storage in Settings; delete the app's folder there yourself if you want the copies gone too.</li>
+<li>Reset or delete your advertising ID in Android settings; buy Pro to remove ads.</li>
+<li>Questions or requests: <a href="mailto:krmndigital@gmail.com">krmndigital@gmail.com</a>.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version is published on this page with a new effective date.</p>
+
+<footer><p><a href="../">AI Notepad</a> · <a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a> · <a href="../licenses/">Licences</a> · <a href="../support/">Support</a></p></footer>
+</main>
+</body>
+</html>
